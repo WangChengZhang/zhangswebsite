@@ -1,0 +1,418 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }   
+body {
+	background: #fff;
+	color: #323232;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}   
+body * {
+	transition: all 0.2s ease-in-out;
+}
+td,th,caption { font-size:14px; }   
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }   
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}   
+a { color:#555; text-decoration:none; }   
+a:hover { text-decoration:underline; }   
+img { border: 2px solid #959595; }   
+ol,ul,li { list-style:none; }   
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }   
+table { border-collapse:collapse; }   
+.topmargin {
+	height: 80px;
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	background-image: url(url);
+	background-color: hsla(228,46%,34%,1.00);
+	top: 0px;
+	z-index: 3;
+}
+.topmargin * {
+	font-family: "黑体", "宋体";
+	text-align: center;
+	text-shadow: 0px 0px 1px hsla(0,0%,100%,1.00);
+}
+
+.topmargin a  {
+	display: block;
+	color: hsla(0,0%,100%,1.00);
+	text-decoration: none;
+}
+
+.topmargin h1 {
+	left: 50px;
+	height: 60px;
+	line-height: 54px;
+	font-size: 30px;
+	position: absolute;
+	top: 10px;
+	border: 3px solid hsla(0,0%,100%,1.00);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.topmargin h1:hover {
+	-webkit-box-shadow: 0px 0px 10px hsla(0,0%,100%,1.00);
+	box-shadow: 0px 0px 10px hsla(0,0%,100%,1.00);
+}
+.topmargin h1 a:hover {
+	text-shadow: 0px 0px 10px hsla(0,0%,100%,1.00);
+}
+
+
+.topmargin .search {
+	position: absolute;
+	right: 200px;
+	height: 40px;
+	width: 210px;
+	background-color: hsla(0,0%,100%,1.00);
+	border-radius: 20px;
+	top: 20px;
+}
+.topmargin .search input {
+	border-style: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	right: 60px;
+	border-radius: 20px;
+	line-height: 40px;
+	width: 150px;
+	outline: none;
+	height: 40px;
+}
+.topmargin .search button:hover {
+	background-color: hsla(47,100%,77%,1.00);
+	color: hsla(228,29%,30%,1.00);
+}
+.topmargin .search button {
+	display: block;
+	position: absolute;
+	right: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 40px;
+	border-radius: 20px;
+	width: 60px;
+	border-style: none;
+	background-color: hsla(47,100%,46%,1.00);
+	color: hsla(0,0%,100%,1.00);
+	font-size: 18px;
+	outline: none;
+	cursor: pointer;
+}
+
+
+.topmargin h2 {
+	right: 120px;
+}
+.topmargin h3 {
+	right: 50px;
+
+}
+.topmargin h2 ,.topmargin h3   {
+	font-size: 18px;
+	line-height: 60px;
+	height: 60px;
+	top: 10px;
+	width: 60px;
+	position: absolute;
+}
+
+.topmargin h2 a , .topmargin h3 a{	transition: all 0.5s ease-in-out;}
+.topmargin h2 a:hover , .topmargin h3 a:hover {
+	background-color: hsla(0,0%,100%,1.00);
+	border-radius: 15px;
+	color: hsla(228,45%,35%,1.00);
+}
+.topmargin .loggeduser {
+	position: absolute;
+	width: 160px;
+	height: 80px;
+	right: 20px;
+	top: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #2F3F7F;
+	border-radius: 10px;
+	transition: all 0.5s ease-in-out;
+}
+.topmargin .loggeduser img {
+	display: block;
+	position: absolute;
+	left: 60px;
+	top: 10px;
+}
+.topmargin .loggeduser .username {
+	display: block;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 50px;
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.topmargin .loggeduser .logout {
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	line-height: 40px;
+	left: 60px;
+	border-radius: 5px;
+	transition: all 0.2s ease-in-out;
+}
+.topmargin .loggeduser .logout:hover {
+	background-color: #FFFFFF;
+	color: #2F3F7F;
+}
+
+.topmargin .loggeduser:hover {
+	height: 160px;
+}
+
+body {
+	position: relative;
+	padding-top: 80px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+main {
+
+
+
+}
+
+
+main a:hover {
+	text-decoration: none;
+	color: #00C0FD;
+}
+.aside {
+	position: absolute;
+	right: 10px;
+	top: 500px;
+	width: 250px;
+	z-index: 2;
+	background-color: #FFFFFF;
+}
+.aside h1 {
+	background-color: #2F3F7F;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 30px;
+	text-indent: 10px;
+}
+.aside section {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #898989;
+	position: relative;
+	overflow-y: hidden;
+	top: 10px;
+	margin-bottom: 10px;
+}
+.aside section>a {
+	display: block;
+	background-color: #AFAFAF;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+}
+.aside section h2 {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	left: 55px;
+}
+.aside section p {
+	margin-top: 55px;
+	line-height: 1.5em;
+}
+
+.recommends {
+	overflow-y: hidden;
+	width: 500px;
+	position: relative;
+	margin-left: 300px;
+	padding-top: 20px;
+}
+.recommends div  {
+	float: left;
+	position: relative;
+	color: #FFFFFF;
+	text-shadow: -1px 1px 1px #000000;
+	overflow-x: hidden;
+	border-radius: 5px;
+	overflow-y: hidden;
+	border: 1px solid #959595;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.recommend1 {
+	width: 500px;
+	height: 200px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.recommend2, .recommend3 {
+	width: 240px;
+	height: 100px;
+}
+.recommend3 {
+	margin-left: 20px;
+}
+
+.recommends  p {
+	position: absolute;
+	bottom: 0px;
+	line-height: 1.5em;
+	height: 3em;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,1.00) 100%);
+	right: 0px;
+	left: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.recommend1 a {
+	display: block;
+	width: 500px;
+	height: 200px;
+}
+.recommend2 a, .recommend3 a {
+	width: 240px;
+	height: 100px;
+	display: block;
+}
+main>section {
+	clear: left;
+	margin-right: 300px;
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 20px;
+	border-bottom: 2px solid #8D8D8D;
+	overflow-x: auto;
+	word-break: normal;
+	word-wrap: break-word;
+}
+main>section> h1 {
+	font-size: 35px;
+	line-height: 1.25em;
+}
+main>section> h2 {
+	line-height: 3em;
+}
+
+main>section> h2 p {
+	display: inline;
+}
+main>section> h2 a {
+	color: #00C0FD;
+}
+.cover img {
+	display: block;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.abstracts {
+	line-height: 1.5em;
+}
+.state {
+	background-color: #EDEDED;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 60px;
+}
+.state * {
+	display: block;
+	float: left;
+}
+.state a {
+	background-color: #EBB800;
+	color: #FFFFFF;
+	width: 150px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.state h1, .state h2 {
+	line-height: 60px;
+	margin-left: 110px;
+	position: relative;
+}
+.state h1:before {
+	;
+	display: block;
+	position: absolute;
+	left: -85px;
+	color: #00C0FD;
+	content: '\270e 评论数：';
+	width: 80px;
+	text-align: center;
+}
+.state h2:before {
+	content: '\261e 点击数：';
+	display: block;
+	position: absolute;
+	left: -85px;
+	color: #00C0FD;
+	width: 80px;
+	text-align: center;
+}
+
+.source {
+	clear: left;
+	margin-bottom: 20px;
+	border-left: 5px solid #FFA600;
+	padding-left: 10px;
+}
+.button {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 300px;
+	overflow-y: hidden;
+}
+.button h1 {
+	float: left;
+	width: 150px;
+	margin-left: 0px;
+}
+.button h2 {
+	float: left;
+	width: 150px;
+	margin-left: 500px;
+}
+.button a {
+	display: block;
+	color: #FF7600;
+	text-align: center;
+	line-height: 2em;
+	border: 2px solid #FF7600;
+}
+
+footer {
+	clear: left;
+	background-color: #EDEDED;
+	height: 150px;
+	margin-top: 30px;
+	overflow-y: hidden;
+	text-align: center;
+	line-height: 150px;
+	color: #808080;
+	text-shadow: -1px 2px 1px #FFFFFF;
+}

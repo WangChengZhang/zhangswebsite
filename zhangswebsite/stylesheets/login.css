@@ -1,0 +1,289 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }   
+body {
+	background: #fff;
+	color: #323232;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	overflow-y: hidden;
+}  
+body * {
+	transition: all 0.2s ease-in-out;
+} 
+td,th,caption { font-size:14px; }   
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }   
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}   
+a { color:#555; text-decoration:none; }   
+a:hover { text-decoration:underline; }   
+img {
+	border: 2px solid #959595;
+}   
+ol,ul,li { list-style:none; }   
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }   
+table { border-collapse:collapse; }   
+.topmargin {
+	height: 80px;
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	background-image: url(url);
+	background-color: hsla(228,46%,34%,1.00);
+	top: 0px;
+	z-index: 3;
+}
+.topmargin * {
+	font-family: "黑体", "宋体";
+	text-align: center;
+	text-shadow: 0px 0px 1px hsla(0,0%,100%,1.00);
+}
+
+.topmargin a  {
+	display: block;
+	color: hsla(0,0%,100%,1.00);
+	text-decoration: none;
+}
+
+.topmargin h1 {
+	left: 50px;
+	height: 60px;
+	line-height: 54px;
+	font-size: 30px;
+	position: absolute;
+	top: 10px;
+	border: 3px solid hsla(0,0%,100%,1.00);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.topmargin h1:hover {
+	-webkit-box-shadow: 0px 0px 10px hsla(0,0%,100%,1.00);
+	box-shadow: 0px 0px 10px hsla(0,0%,100%,1.00);
+}
+.topmargin h1 a:hover {
+	text-shadow: 0px 0px 10px hsla(0,0%,100%,1.00);
+}
+
+
+.topmargin .search {
+	position: absolute;
+	right: 200px;
+	height: 40px;
+	width: 210px;
+	background-color: hsla(0,0%,100%,1.00);
+	border-radius: 20px;
+	top: 20px;
+}
+.topmargin .search input {
+	border-style: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	right: 60px;
+	border-radius: 20px;
+	line-height: 40px;
+	width: 150px;
+	outline: none;
+	height: 40px;
+}
+.topmargin .search button:hover {
+	background-color: hsla(47,100%,77%,1.00);
+	color: hsla(228,29%,30%,1.00);
+}
+.topmargin .search button {
+	display: block;
+	position: absolute;
+	right: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 40px;
+	border-radius: 20px;
+	width: 60px;
+	border-style: none;
+	background-color: hsla(47,100%,46%,1.00);
+	color: hsla(0,0%,100%,1.00);
+	font-size: 18px;
+	outline: none;
+	cursor: pointer;
+}
+
+
+.topmargin h2 {
+	right: 120px;
+}
+.topmargin h3 {
+	right: 50px;
+
+}
+.topmargin h2 ,.topmargin h3   {
+	font-size: 18px;
+	line-height: 60px;
+	height: 60px;
+	top: 10px;
+	width: 60px;
+	position: absolute;
+}
+
+.topmargin h2 a , .topmargin h3 a{	transition: all 0.5s ease-in-out;}
+.topmargin h2 a:hover , .topmargin h3 a:hover {
+	background-color: hsla(0,0%,100%,1.00);
+	border-radius: 15px;
+	color: hsla(228,45%,35%,1.00);
+}
+.topmargin .loggeduser {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	right: 20px;
+	top: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #2F3F7F;
+	border-radius: 10px;
+	transition: all 0.5s ease-in-out;
+}
+.topmargin .loggeduser img {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+.topmargin .loggeduser .username {
+	display: block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 50px;
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.topmargin .loggeduser .logout {
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	line-height: 40px;
+	left: 20px;
+	border-radius: 5px;
+	transition: all 0.2s ease-in-out;
+}
+.topmargin .loggeduser .logout:hover {
+	background-color: #FFFFFF;
+	color: #2F3F7F;
+}
+
+.topmargin .loggeduser:hover {
+	height: 160px;
+}
+
+
+main {
+	overflow-y: hidden;
+}.login {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 250px;
+	overflow-y: hidden;
+}
+.login * {
+	display: block;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.login #username {
+	width: 250px;
+	height: 30px;
+}
+.login h1 {
+	width: 250px;
+	text-align: left;
+	text-indent: 10px;
+	line-height: 30px;
+}
+.login #password {
+	width: 250px;
+	height: 30px;
+	margin-top: 30px;
+}
+.login h2 {
+	width: 250px;
+	margin-top: 30px;
+	text-align: left;
+	text-indent: 10px;
+	line-height: 30px;
+}
+.login #securitycode {
+	width: 100px;
+	height: 30px;
+	margin-top: 30px;
+}
+.login img {
+	margin-top: 30px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.login h3 {
+	width: 250px;
+	height: 30px;
+	margin-top: 30px;
+	text-align: left;
+	text-indent: 10px;
+	line-height: 30px;
+}
+.login h3.class1  {
+	color: #FF0004;
+}
+.login h3.class2 {
+	color: #00FF00;
+}
+
+
+.login h4 {
+	width: 500px;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	color: #FF0004;
+}
+
+.login button {
+	margin-top: 30px;
+	width: 100px;
+	height: 50px;
+	margin-left: 125px;
+	background-color: #EBB800;
+	color: #FFFFFF;
+	border-radius: 25px;
+	font-size: 20px;
+	border-style: solid;
+	border-color: #B1B1B1;
+	cursor: pointer;
+}
+.login a {
+	height: 50px;
+	margin-top: 30px;
+	line-height: 50px;
+	font-size: 20px;
+	margin-left: 35px;
+	color: #00C0FD;
+
+}
+
+footer {
+	clear: left;
+	background-color: #EDEDED;
+	height: 150px;
+	margin-top: 250px;
+	overflow-y: hidden;
+	text-align: center;
+	line-height: 150px;
+	color: #808080;
+	text-shadow: -1px 2px 1px #FFFFFF;
+}
